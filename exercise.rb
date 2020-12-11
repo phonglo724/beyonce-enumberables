@@ -1,3 +1,5 @@
+require 'pry'
+
 beyonceHash = {
     hits: [
       { title: 'bootylicious', group: true, group_name: 'destinysChild', hair: ['straight', 'blonde', 'pink tips'], signature_look: 'fedora with yellow feather', video_theme: 'dressing room dance', best_line: 'Move your body up and down, make your booty touch the ground', fierceness: 7, formation: false, dancers: 20
@@ -45,3 +47,6 @@ beyonceHash = {
 # 18. create an object where the properties are song names and the value is an object which contains that fierceness and average fierceness
 # 19. create an object where the properties are movie names and the value is an object which contains that rating and average rating
 # 20. create a hash with beyonces hairstyles with a tally of each hairstyle ie { 'blonde': 3, ect.}  
+
+binding.pry
+0
